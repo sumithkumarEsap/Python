@@ -11,17 +11,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sets.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sets.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sets.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dict.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dict.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -56,9 +56,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DictionatiresAndSets.py" />
-        <option value="$PROJECT_DIR$/sets.py" />
         <option value="$PROJECT_DIR$/WebScrapping.py" />
         <option value="$PROJECT_DIR$/Dict.py" />
+        <option value="$PROJECT_DIR$/sets.py" />
       </list>
     </option>
   </component>
@@ -281,14 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebScrapping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -303,6 +295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
