@@ -31,7 +31,7 @@ def word_function(sen):
     #converting the list into string
     for i in ra:
         strng += " " + str(i)
-    print(strng)
+    print("reverse string is:"+strng)
 
 
 

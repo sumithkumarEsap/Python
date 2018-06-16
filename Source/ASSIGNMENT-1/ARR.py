@@ -1,37 +1,24 @@
 import numpy as np
-#creating 15 random values by using numpy rndom function in the range of 1,20
-
-
-
 a = np.random.randint(1,20,15)
 print("Original array:")
 print(a)
-unique_elements, counts_elements = np.unique(a, return_counts=True)
-my_arr=[unique_elements],[counts_elements]
-print(my_arr[0][1])
+s = sorted(a) # Sorting the array
+print(s)
+x = 0 # initializing the reference value
+c = 1
+d = {}
+for i in s:   #loop for iterating items in s
+    j = i+1
+    c = 0
+    for j in s:   #Anothe loop for comparing one element with rest
+        if (i == j):
+            c = c + 1  #incrementing the count if same number occurs
+    if (c >= x): # storing values to the dictionary by taking x as reference
+        x = c
+        d[i] = c
 
-print("Frequency of unique values of the said array:")
-print(np.asarray((unique_elements, counts_elements)))
+print(d)
+dic = sorted(d) #sorting the updated dictionary
+c = dic[-1]
 
-
-
-
-'''
-l=np.random.randint(1,20,15)
-#adding these values to the list
-my_list=list(l)
-print(my_list)
-
-
-
-count=0
-new_list=[]
-#creating a empty set to hold the repeating numbers
-my_set={}
-#print(list([x for x in my_list if my_list .count(x) > 1])[0]))
-for x in my_list:
-    if my_list.count(x)>1:
-        new_list.append(x)
-my_set=set(new_list)
-print(my_set)
-'''
+print("most frequent numbers are:%d" %c)
