@@ -2,4 +2,6 @@ The k-NN is a non-parametric method used for classification. An object is classi
 As the value of k increases the the model will fit better into our training data by including all the possible regions,
 On way to estimate the best value for k is to start with k=1 and the increment it gradually to fit the data set (70% approx.) so that we can include major part of the data set as it covers most of the samples
 As k=1 it may not include all the samples form the data set and when k=50 it may cover most of the samples form the data set, there by calculating the results more accurately.
-
+Choice of k will be very crucial for smaller values of k there will be higher influence of noise on result and for large value of k (k=50)
+it will have the best fit on the dataset
+finalyy, to find the best value of k is k=n^(1/2) , where n is number of samples in training data set
