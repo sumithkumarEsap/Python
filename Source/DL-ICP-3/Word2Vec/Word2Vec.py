@@ -137,7 +137,7 @@ valid_examples = np.random.choice(valid_window, valid_size, replace=False)
 num_sampled = 64
 
 # Model Learning Rate
-learning_rate = 0.05
+learning_rate = 0.01
 
 # How many words in vocab
 vocabulary_size = 50000
@@ -175,7 +175,7 @@ loss = tf.reduce_mean(
 # ### Optimizer
 
 # Construct the Adam optimizer
-optimizer = tf.train.AdamOptimizer(learning_rate=1.0)
+optimizer = tf.train.RMSPropOptimizer(learning_rate=1.0)
 trainer = optimizer.minimize(loss)
 
 # Compute the cosine similarity between minibatch examples and all embeddings.
