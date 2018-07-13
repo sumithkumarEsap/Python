@@ -43,7 +43,7 @@ encoded, decoded = model(x, w_enc, b_enc, w_dec, b_dec)
 # Cost Function basic term
 cross_entropy = -1. * x * tf.log(decoded) - (1. - x) * tf.log(1. - decoded)
 loss = tf.reduce_mean(cross_entropy)
-train_step = tf.train.GradientDescentOptimizer(0.3).minimize(loss)
+train_step = tf.train.AdagradOptimizer(0.3).minimize(loss)
 
 # Train
 init = tf.initialize_all_variables()

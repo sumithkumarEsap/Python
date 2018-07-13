@@ -16,8 +16,8 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
 
 # Training Parameters
-learning_rate = 0.01
-num_steps = 6000
+learning_rate = 0.05
+num_steps = 4000
 batch_size = 256
 
 display_step = 1000
@@ -87,7 +87,7 @@ y_true = X
 
 # Define loss and optimizer, minimize the squared error
 loss = tf.reduce_mean(tf.pow(y_true - y_pred, 2))
-optimizer = tf.train.AdagradOptimizer(learning_rate).minimize(loss)
+optimizer = tf.train.RMSPropOptimizer(learning_rate).minimize(loss)
 
 # Initialize the variables (i.e. assign their default value)
 init = tf.global_variables_initializer()
