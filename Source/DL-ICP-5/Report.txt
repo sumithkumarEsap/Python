@@ -1,0 +1,1 @@
+I have found that adamoptimizer with drop out rate of 0.5 and 128 fileters with 200 epochs has better performance and accuracy of 0.9 compared to RMSPro and GradientDescent Optimizers which have 0.7,0.5 accuracy
