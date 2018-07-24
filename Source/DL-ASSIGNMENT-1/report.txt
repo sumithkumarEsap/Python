@@ -1,0 +1,17 @@
+ADAM with given layers nd fileters	steps at 500
+Training 0.92
+test 0.8
+with changed layers and filters steps at 100
+training 0.77
+test 0.7
+
+Gradient with given layers nd filters
+training 0.8
+test 0.68
+
+with changed layerd and filetrs
+training 0.6
+test 0.55
+
+
+

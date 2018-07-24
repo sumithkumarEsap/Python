@@ -1,0 +1,19 @@
+onestack
+learning rate 0.001 training iters 10000 n_ipnut 3 optimizer adagrad 
+n_hidden 512
+avg loss 1.41 avg accuracy 66.10
+
+two stack
+
+learning rate 0.005 training iters 5000 n_ipnut 2 optimizer GradientDescent
+n_hidden 400
+avg loss 3.65 avg accuracy 93.0%
+
+learning rate 0.01 training iters 7000 n_ipnut 4 optimizer ADAM
+n_hidden 500
+avg loss 5.11 avg accuracy 12.5%
+ 
+learning rate 0.001 training iters 7000 n_ipnut 5 optimizer RMSPRO
+n_hidden 512
+avg loss 0.00 avg accuracy 100%
+ 
